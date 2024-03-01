@@ -1,0 +1,233 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    border-radius: 5px;
+    width: 1000px;
+    height: 500px;
+    flex-direction: row;
+
+}
+
+.ab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    border-radius: 5px;
+    width: 1000px;
+    height: 500px;
+    flex-direction: row;
+}
+
+.certi {
+
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.pro {
+
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    width: 1000px;
+    height: 700px;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+
+.inter {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.row {
+    margin: 6px -14px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+    padding: 15px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 27%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    /* padding: 1px; */
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+} */
+
+.sidebar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* nav {
+    font-size: 15px;
+    color: #301934;
+    font-weight: bold;
+    position: fixed;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 100wh;
+
+
+}
+
+.navbar {
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* position: f; */
+/* }
+
+li a {
+    color: #301934;
+    font-weight: bold;
+    text-decoration: none;
+    /* justify-content: space-between; */
+/* margin-left: 10px;
+}
+
+a:hover {
+    background-color: black;
+    color: aliceblue;
+} */
+#about {
+    height: 100vh;
+    margin-top: 50px;
+
+}
+
+#index {
+    height: 100vh;
+    margin-left: 200px;
+}
+
+.ab {
+    height: 100wh;
+    margin-left: 200px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #03396c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6497b1;
+}
+
+.cont {
+    border-radius: 5px;
+
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecebeb;
+    width: 50%;
+    height: 70vh;
+    margin-left: 400px;
+    margin-top: 300px;
+}
